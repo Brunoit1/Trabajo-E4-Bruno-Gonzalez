@@ -1,0 +1,157 @@
+i {
+    font-size: 3rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://th.bing.com/th/id/R.e15c67c2148c9a7b86e95d9faa83c761?rik=9pLFMCTQGxmYdg&pid=ImgRaw&r=0);
+    background-repeat:repeat ;
+   
+}
+
+.caja {
+    width: 100%;
+   
+}
+
+.caja-1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 40px;
+    color: white;
+}
+
+.caja-2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-top: 50px;
+    align-items: center;
+    /* background-color: red; */
+    
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    max-width: 75%;
+    box-shadow: 0 0 26px rgb(0, 0, 0, 0.6);
+    border-radius: 10px;
+    padding: 30px 0;
+    width: 100%;
+    background-color: white;
+
+}
+
+.items p {
+    text-align: center;
+    
+}
+
+.numeros {
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 50%;
+    font-size: 2rem;
+    color: gray;
+}
+.caja-22 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-top: 50px;
+    align-items: center;
+    /* background-color: red; */
+
+}
+.caja-11{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 40px;
+    color: white;
+}
+
+@media (min-width: 1024px) {
+   
+.caja-2 {
+    flex-direction: row;
+    
+
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    background-image: none;
+
+}
+
+.items {
+    border-radius: 30px;
+    box-shadow: none;
+    gap: 20px;
+    color: black;
+    background-color: bisque;
+
+}
+
+.caja-22 {
+    flex-direction: row;
+    max-width: 100%;
+    
+}
+
+.caja-1 {
+    color: black;
+    
+}
+
+.caja-11 {
+   color: black;
+        
+}
+
+.caja {
+    box-shadow:0 0 26px rgb(0, 0, 0, 0.6);
+    padding: 30px;
+    margin-top: 50px;
+    border-radius: 20px;
+    max-width: 80%;
+    margin-left: 200px;
+    background-color: antiquewhite;
+}
+
+.caja-section2 {
+    box-shadow:0 0 26px rgb(0, 0, 0, 0.6);
+    padding: 30px;
+    margin-top: 50px;
+    border-radius: 20px;
+    max-width: 80%;
+    margin-left: 200px;
+    background-color: antiquewhite;
+}
+
+.item-3 {
+    /* background-color: aqua; */
+    min-width: 28%;
+
+}
+
+}
